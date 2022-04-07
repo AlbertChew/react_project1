@@ -2,7 +2,7 @@
   "name": "project1",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/AlbertChew/project1",
+  "homepage": "https://albertchew.github.com/react_project1",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
@@ -17,11 +17,11 @@
     "web-vitals": "^2.1.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d project1",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
