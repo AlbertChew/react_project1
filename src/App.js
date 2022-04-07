@@ -7,12 +7,12 @@
  import SearchItem from './SearchItem';
 
 function App() {
-  const [items, setItems] = useState(JSON.parse(localStorage.getItem('shoppinglist')));
-  //  const [items, setItems] = useState([
-  //    {id:1, checked: false, item:'durian'},
-  //    {id:2, checked: false, item:'orange'},
-  //    {id:3, checked: false, item:'mango'}
-  //   ]);
+  //const [items, setItems] = useState(JSON.parse(localStorage.getItem('shoppinglist')));
+   const [items, setItems] = useState([
+     {id:1, checked: false, item:'durian'},
+     {id:2, checked: false, item:'orange'},
+     {id:3, checked: false, item:'mango'}
+    ]);
   
   const [newItem, setNewItem] = useState('');
   const [search, setSearch] = useState('');
